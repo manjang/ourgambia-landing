@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+.landing {
+  text-align: center;
+  color: #3B4245;
+  background-color: #FDFBF8;
+}
+
+.landing-wrap {
+  width: calc(100% - 30px);
+  margin: auto;
+}
+
+.language {
+  margin-top: 25px;
+}
+
+.language a {
+  color: #3B4245;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.language a:hover {
+  color: #49c5b6;
+}
+
+.language .active {
+  text-decoration: underline;
+}
+
+.ourgambia-logo {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.ourgambia-logo h1 {
+  margin-bottom: 0;
+}
+
+.ourgambia-logo img {
+  vertical-align: middle;
+}
+
+.ourgambia-logo .powered-by {
+  margin-bottom: 10px;
+}
+
+.classifieds-row {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+  font-size: 12px;
+  background-image: url(../images/banner.jpg);
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.classifieds-row--wrap {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.classified-block {
+  width: calc(100% / 8);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.classified-block:first-child {
+  font-weight: 700;
+}
+
+.classified-block a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.classified-block a:hover {
+  color: #49c5b6;
+  text-decoration: underline;
+}
+
+.classified-block img {
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+  .classified-block {
+    width: calc(100% / 4);
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .classified-block {
+    width: calc(100% / 2);
+  }
+}
+
+.ourgambia-headline {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.services-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #EEEEEC;
+  background-color: #fff;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.service {
+  width: calc(100% / 4);
+  margin: auto;
+  text-decoration: none;
+  color: #000000;
+}
+
+.service:hover {
+  color: #49c5b6;
+}
+
+.service-name {
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 780px) {
+  .service-desc {
+    min-height: 60px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .service {
+    width: calc(100% / 2);
+    min-height: 125px;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
